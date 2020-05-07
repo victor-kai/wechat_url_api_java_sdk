@@ -78,6 +78,7 @@ public class HttpClient {
     CloseableHttpResponse response = null;
     String result = null;
     try {
+      paraMap.put("api_version","java-1.0.0");
       HttpPost httpPost = new HttpPost(url);
       httpPost.setConfig(getDefaultRequestConfig());
       httpPost.setEntity(new UrlEncodedFormEntity(convert(paraMap), UTF_8));
