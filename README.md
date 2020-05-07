@@ -1,6 +1,8 @@
 ## api完整教程镜像版 https://wechaturl.gitbook.io/
 
-# 不死鸟微信防封杀系统免费版 java-sdk
+# 这里是不死鸟微信防封杀系统免费版 java-sdk
+
+>  如果你需要使用php-sdk,请到https://github.com/wechaturl/wechat_url_api
 
 ### 我们的官方网站:https://www.wechaturl.us , 为了使你更快更轻松的使用本API,可以先简单浏览api各个模块.[点我查看](https://wechaturl.gitbook.io/ "点我查看")
 
