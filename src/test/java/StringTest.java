@@ -1,8 +1,7 @@
 import com.fasterxml.jackson.core.JsonProcessingException;
-import com.goodyes.exception.DefaultException;
-import com.goodyes.service.DomainUrlProtectService;
-import com.goodyes.utils.CharacterUtil;
-import com.goodyes.vo.UrlParam;
+import www.wechaturl.us.fangfeng.sdk.exception.DefaultException;
+import www.wechaturl.us.fangfeng.sdk.service.DomainUrlProtectService;
+import www.wechaturl.us.fangfeng.sdk.vo.UrlParam;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -20,7 +19,7 @@ public class StringTest {
   @Test
   public void test2() throws JsonProcessingException, DefaultException {
     UrlParam urlParam = new UrlParam(VALID_APPID, VALID_APPKEY);
-    urlParam.setGroupId(4).setRequestUri("http://ok1.okalink.cn");
+    urlParam.setGroupId(4).setRequestUri("http://www.google.com");
     DomainUrlProtectService domainUrlProtectService = new DomainUrlProtectService();
     String res = domainUrlProtectService.dynamicSetURIParameters(urlParam);
     System.out.println(res);
