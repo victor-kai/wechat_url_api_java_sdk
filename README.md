@@ -1,3 +1,7 @@
-# wechat_url_api_java_sdk
-QQ微信域名防封防红url网址链接状态检测API-域名永不封杀-不死鸟防封免费版(JAVA-SDK)
-客官，稍安勿躁，我们的工作人员还没有来得及上传，你要是着急，联系我们的工作人员发你jar包
+本sdk提供的服务类（接口）支持对应的api.
+服务类位于java.com.goodyes.service包, 如下:
+1. SingleUrlProtectService 任意网址防封api
+2. DomainUrlProtectService 域名防封api
+3. DomainUrlMonitorService 域名监控api
+4. ShortUrlService 短网址api
+5. ShieldService 屏蔽云端爬虫检测
